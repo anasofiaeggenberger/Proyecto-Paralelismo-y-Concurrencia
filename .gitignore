@@ -1,0 +1,15 @@
+# entornos virtuales
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# directorios de imágenes
+pokemon_dataset/
+pokemon_processed/
+
+# archivos temporales
+.DS_Store
+.idea/
+
