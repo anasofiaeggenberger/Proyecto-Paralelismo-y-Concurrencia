@@ -42,3 +42,9 @@ La mayor ganancia se logró en la fase de descarga gracias a la concurrencia (I/
 Esto demuestra la efectividad de combinar **concurrencia para operaciones de entrada/salida** y **paralelismo para tareas intensivas en CPU**.
 
 ---
+
+
+## Notas adicionales
+- Las carpetas `pokemon_dataset/` y `pokemon_processed/` **no están incluidas en el repositorio**, ya que se generan automáticamente al ejecutar el script.
+- `pokemon_dataset/` contiene las imágenes originales descargadas (I/O bound).
+- `pokemon_processed/` contiene las imágenes procesadas con los filtros y transformaciones (CPU bound).
